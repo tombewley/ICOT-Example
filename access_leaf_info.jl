@@ -48,7 +48,7 @@ seed = 1
 
 ##### Step 1: Prepare the data
 # Read the data - recommend the use of the (deprecated) readtable() command to avoid potential version conflicts with the CSV package.
-data = readtable("../data/ruspini.csv"); 
+data = readtable("data/ruspini.csv"); 
 # Convert the dataset to a DataFrame
 data_full = DataFrame(data);
 # Prepare data for ICOT: features are stored in the matrix X, and the warm-start labels are stored in y
